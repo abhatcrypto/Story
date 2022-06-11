@@ -14,3 +14,8 @@ mkdir Story > cd Stody > touch  chapter1.txt > vim chpater1.txt
  9) git remote add origin https://github.com/datasciencescoop/Story.git
  10) git branch -M main
  11) git push -u origin main
+
+ Remove files from Staging
+ ========================
+ a) git rm --cached -r .
+ b) git status
