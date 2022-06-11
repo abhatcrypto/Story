@@ -1,0 +1,16 @@
+mkdir Story > cd Stody > touch  chapter1.txt > vim chpater1.txt
+ 1) git init
+ 2) git status
+ 3) git add chapter1.txt 
+ 4) git add .
+ 5) git commit -m "Complete chapter 1"
+ 6) git log
+
+ Make unwanted changes in chapter1.txt
+
+ 7) git diff chapter1.txt 
+ 8) git checkout chapter1.txt
+
+ 9) git remote add origin https://github.com/datasciencescoop/Story.git
+ 10) git branch -M main
+ 11) git push -u origin main
